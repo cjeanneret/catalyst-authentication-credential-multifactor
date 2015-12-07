@@ -6,7 +6,7 @@ use 5.01.102;
 
 use Moose;
 
-our $VERSION = '1.2';
+our $VERSION = '1.2_1';
 
 has config => (is => 'ro', required => 1);
 has factors => (is => 'ro', default => sub { [] });
